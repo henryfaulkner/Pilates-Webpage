@@ -41,7 +41,7 @@ body {
   justify-content: space-evenly;
   background-color: rgb(150, 150, 150);
   padding: 20px 10px 10px 10px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .Icon {
@@ -54,7 +54,16 @@ body {
   left: -8px;
 }
 
-.Contact {
+.About {
+  margin-bottom: 15px;
+}
+
+.About-Text {
+  color: #fff;
+}
+
+.Contact,
+.About {
   background-color: rgb(150, 150, 150);
   padding: 20px 10px 10px 10px;
 }
@@ -75,6 +84,7 @@ a:hover {
 
 .Main-Image,
 .Triple-Icon,
-.Contact {
+.Contact,
+.About {
   border-radius: 15px;
 }

@@ -63,9 +63,11 @@ body {
 }
 
 .Contact,
-.About {
+.About,
+.Schedule {
   background-color: rgb(150, 150, 150);
   padding: 20px 10px 10px 10px;
+  margin-bottom: 15px;
 }
 
 .Contact > h2,
@@ -85,6 +87,27 @@ a:hover {
 .Main-Image,
 .Triple-Icon,
 .Contact,
-.About {
+.About,
+.Schedule {
   border-radius: 15px;
+}
+
+.Schedule-Header {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.Day {
+  text-align: center;
+  width: 14%;
+}
+
+.card-text {
+  justify-content: center;
+  padding: 15px 4px;
 }

@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+.Main-Image {
+  background-image: url("../Images/Higher-Res-Stock.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.5;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.Triple-Icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(150, 150, 150);
+  padding: 20px 10px 10px 10px;
+  margin-bottom: 25px;
+}
+
+.Icon {
+  color: #fff;
+  /* background: url(../Images/White-Circle.png); */
+}
+
+.Triple-Icon > p {
+  position: relative;
+  left: -8px;
+}
+
+.Contact {
+  background-color: rgb(150, 150, 150);
+  padding: 20px 10px 10px 10px;
+}
+
+.Contact > h2,
+.Contact > p {
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: rgb(58, 198, 233);
+}
+
+a:hover {
+  color: rgb(40, 126, 207);
+}
+
+.Main-Image,
+.Triple-Icon,
+.Contact {
+  border-radius: 15px;
+}

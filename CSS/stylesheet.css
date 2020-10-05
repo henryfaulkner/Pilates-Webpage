@@ -95,6 +95,7 @@ a:hover {
 .Schedule-Header {
   color: #fff;
   text-decoration: underline;
+  text-align: center;
 }
 
 .Cards {
@@ -110,4 +111,8 @@ a:hover {
 .card-text {
   justify-content: center;
   padding: 15px 4px;
+}
+
+h2 {
+  font-size: 2rem !important;
 }

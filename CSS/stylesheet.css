@@ -117,3 +117,15 @@ a:hover {
 h2 {
   font-size: 2rem !important;
 }
+
+/* Media Query */
+@media only screen and (max-width: 1000px) {
+  .Cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .Day {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}

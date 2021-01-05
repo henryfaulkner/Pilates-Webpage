@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(67, 153, 219);
 }
 
 .Main-Image {
-  background-image: url("../Images/Higher-Res-Stock.jpg");
-  background-size: auto;
+  background-image: url("../Images/Black_Logo.jpg");
+  background-size: 550px 600px;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgb(255, 255, 255);
 }
 
 #bg {
@@ -41,7 +42,9 @@ body {
   justify-content: space-evenly;
   background-color: rgb(150, 150, 150);
   padding: 20px 10px 10px 10px;
-  margin-bottom: 15px;
+  border-radius: 0 !important;
+  border-color: 2px solid rgb(0, 0, 0) !important;
+  /* margin-bottom: 15px; */
 }
 
 .Icon {
@@ -54,10 +57,6 @@ body {
   left: -8px;
 }
 
-.About {
-  margin-bottom: 15px;
-}
-
 .About-Text {
   color: #fff;
 }
@@ -67,7 +66,6 @@ body {
 .Schedule {
   background-color: rgb(150, 150, 150);
   padding: 20px 10px 10px 10px;
-  margin-bottom: 15px;
 }
 
 .Contact > h2,
@@ -89,7 +87,11 @@ a:hover {
 .Contact,
 .About,
 .Schedule {
-  border-radius: 15px;
+  border-radius: 0 !important;
+}
+
+.Contact > p {
+  margin-bottom: 0px;
 }
 
 .Schedule-Header {
@@ -106,7 +108,7 @@ a:hover {
 
 .Day {
   text-align: center;
-  width: 14%;
+  width: 34%;
 }
 
 .card-text {

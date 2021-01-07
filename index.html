@@ -15,11 +15,6 @@
       src="https://kit.fontawesome.com/e5abb9d6ca.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google Maps API -->
-    <script
-      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
   </head>
   <body>
     <div class="wrapper">
@@ -76,6 +71,7 @@
                 Private Sessions: 8:00AM-11:00AM & 12:00PM-2:00PM</br>
                 Social-Distant & Zoom Group Sessions: 2:00-5:00PM
               </p>
+              <button class="clickable-btn">Sign-Up Now!</button>
             </div>
             <div class="card mx-auto Day">
               <h5 class="card-header">Tuesday</h5>
@@ -89,7 +85,7 @@
         </div>
 
         <div class="About">
-          <div class="About-Text">
+          <div class="About-Text" style="padding: 0 10% 0 10%">
             <h2 class="lead" style="text-decoration: underline">
               About PowerHouse Pilates
             </h2>
@@ -98,7 +94,7 @@
               worked in different studios in several states, I have always felt
               I have had more to give-especially during this past year. 2020 has
               left us with much uncertainty, great sadness, and with some
-              isolated from their loved ones. At Powerhouse Pilates we want to
+              isolated from their loved ones. At Powerhouse Pilates, we want to
               create a community where people can leave the stress of today's
               world at the door. We want you to feel comfortable and safe, not
               only physically but mentally.
@@ -115,7 +111,7 @@
             </a>
           </p>
           <p>Phone Number: 770-726-7692</p>
-          <p style="margin-bottom: 10px">
+          <p style="padding-bottom: 10px">
             Address: 595 Roswell Street NE, Suite D Marietta, Georgia 30060
           </p>
         </div>
@@ -139,22 +135,4 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script>// Initialize and add the map
-    function initMap() {
-      // The location of Uluru 33.95077907484687, -84.53513297630606
-      const phpilates = { lat: 33.95077907484687, lng: -84.53513297630606 };
-      const center = { lat: 33.950528976494844, lng: -84.53531174618456 };
-      // The map, centered at Uluru
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 18,
-        center: center,
-      });
-      // The marker, positioned at Uluru
-      const marker = new google.maps.Marker({
-        position: phpilates,
-        map: map,
-      });
-    }
-    $(document).ready(() => initMap());
-    </script>
 </html>

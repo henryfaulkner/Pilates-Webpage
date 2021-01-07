@@ -1,5 +1,13 @@
 body {
-  background-color: rgb(67, 153, 219);
+  /* background-color: rgb(67, 153, 219); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../Images/Treadmills.jpeg);
+  background-attachment: fixed;
+  margin-bottom: 0;
 }
 
 .wrapper {
@@ -69,8 +77,16 @@ body {
 
 .Icon,
 .About-Text {
-  color: #fff;
+  color: rgb(252, 252, 252);
   /* background: url(../Images/White-Circle.png); */
+}
+
+.head-text {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -13.2%;
+  bottom: 3%;
 }
 
 .Triple-Icon > p {
